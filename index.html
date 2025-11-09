@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Mood Dashboard</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="stars-container" id="starsContainer"></div>
+    <div class="sky-container">
+      <div class="sun" id="sun"></div>
+      <div class="moon" id="moon"></div>
+    </div>
+
+    <header class="header">
+      <h1>Personal Mood Dashboard</h1>
+    </header>
+
+    <div class="container">
+      <div class="card">
+        <label for="nameInput">Enter your name:</label>
+        <input type="text" id="nameInput" placeholder="Your Name" />
+        <h2 id="greeting">Hello, friend</h2>
+      </div>
+
+      <div class="card">
+        <h3>Mood Box</h3>
+        <div id="moodBox"></div>
+        <div class="button-group">
+          <button id="growBtn">🌱 Grow</button>
+          <button id="shrinkBtn">🔄 Shrink</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <button id="toggleMode">🌅 Toggle Day/Night</button>
+      </div>
+
+      <div class="card">
+        <button id="secretBtn">🔒 Show Secret</button>
+        <div id="secretMessage">
+          <p>🌟 This life na spoon, keep it moving! 🌟</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
