@@ -304,6 +304,8 @@ input[type="text"]:focus {
     border-radius: 15px;
     border: 2px solid rgba(255, 255, 255, 0.3);
     animation: slideIn 0.5s ease-out;
+    display: none;
+
 }
 
 @keyframes slideIn {
